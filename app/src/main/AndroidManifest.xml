@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.listview">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="技巧与法规"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Jiqiao.Jiqiao1Activity" />
+        <activity android:name=".Jiqiao.Jiqiao2Activity" />
+        <activity android:name=".Jiqiao.Jiqiao3Activity" />
+        <activity android:name=".Jiqiao.Jiqiao4Activity" />
+        <activity android:name=".Jiqiao.Jiqiao5Activity" />
+        <activity android:name=".Content5.Content5_1Activity" />
+        <activity android:name=".Content5.Content5_2Activity" />
+        <activity android:name=".Content5.Content5_3Activity" />
+        <activity android:name=".Content5.Content5_4Activity" />
+        <activity android:name=".Content1.Content1_1Activity" />
+        <activity android:name=".Content1.Content1_2Activity" />
+        <activity android:name=".Content1.Content1_3Activity" />
+        <activity android:name=".Content1.Content1_4Activity" />
+        <activity android:name=".Content1.Content1_5Activity" />
+        <activity android:name=".Content2.Content2_1Activity" />
+        <activity android:name=".Content2.Content2_2Activity" />
+        <activity android:name=".Content2.Content2_3Activity" />
+        <activity android:name=".Content2.Content2_4Activity" />
+        <activity android:name=".Content2.Content2_5Activity" />
+        <activity android:name=".Content2.Content2_6Activity" />
+        <activity android:name=".Content2.Content2_7Activity" />
+        <activity android:name=".Content2.Content2_8Activity" />
+        <activity android:name=".Content4.Content4_1Activity" />
+        <activity android:name=".Content4.Content4_2Activity" />
+        <activity android:name=".Content4.Content4_3Activity" />
+        <activity android:name=".Content4.Content4_4Activity" />
+        <activity android:name=".Content4.Content4_5Activity" />
+        <activity android:name=".Content4.Content4_6Activity" />
+        <activity android:name=".Content4.Content4_7Activity" />
+        <activity android:name=".Content3.Content3_1Activity" />
+        <activity android:name=".Content3.Content3_2Activity" />
+        <activity android:name=".Content3.Content3_3Activity" />
+        <activity android:name=".Content3.Content3_4Activity" />
+        <activity android:name=".Content3.Content3_5Activity" />
+        <activity android:name=".Content3.Content3_6Activity"></activity>
+    </application>
+
+</manifest>
